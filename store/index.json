@@ -1,0 +1,98 @@
+{
+ "format": 2,
+ "published": "2026-10-20T06:06:28.117Z",
+ "items": [
+  {
+   "id": "mixer.bookmarks",
+   "kind": "app",
+   "versions": [
+    {
+     "version": "1.0.0",
+     "name": "Bookmarks",
+     "icon": "🔖",
+     "author": "Mixer",
+     "description": "Links you save, each with its page's title, description, and cover. Save one with File → Save Link….",
+     "apis": [
+      10
+     ],
+     "needs": [],
+     "adds": [
+      {
+       "kind": "type",
+       "id": "mixer.bookmark",
+       "name": "Bookmark"
+      },
+      {
+       "kind": "action",
+       "id": "mixer.save-bookmark",
+       "name": "Save a link"
+      }
+     ],
+     "file": "mixer.bookmarks-1.0.0.zip",
+     "sha256": "66d16ef2cfb5aded09c9ced547e2b48f06eecd34f8a5aa69369376ef852b4c58",
+     "size": 9225,
+     "content": "bf570c11455a2a4270cdbdb3d23b1f13649c973fbc69d01109090c0fd6078177",
+     "published": "2026-10-20T06:06:28.117Z"
+    }
+   ]
+  },
+  {
+   "id": "mixer.notes",
+   "kind": "app",
+   "versions": [
+    {
+     "version": "1.0.0",
+     "name": "Notes",
+     "icon": "📝",
+     "author": "Mixer",
+     "description": "Notes in rich text, which mention anything in Mixer and link to it.",
+     "apis": [
+      10
+     ],
+     "needs": [],
+     "adds": [
+      {
+       "kind": "type",
+       "id": "mixer.note",
+       "name": "Note"
+      }
+     ],
+     "file": "mixer.notes-1.0.0.zip",
+     "sha256": "100ec27c06d9219d4764813ac9696621e0d10d95da3a7a2502a546f47f09b04e",
+     "size": 1563,
+     "content": "0065648dd26f4ec116f471310434decc901e379bd71cae8ea0d164805a1c3af5",
+     "published": "2026-10-20T06:06:28.117Z"
+    }
+   ]
+  },
+  {
+   "id": "mixer.tasks",
+   "kind": "app",
+   "versions": [
+    {
+     "version": "1.0.0",
+     "name": "Tasks",
+     "icon": "☑️",
+     "author": "Mixer",
+     "description": "Your tasks: what's due now, an inbox of those without a date, and what comes later. Add one from any record with its Tasks extension, which mentions the record in the task.",
+     "apis": [
+      10
+     ],
+     "needs": [],
+     "adds": [
+      {
+       "kind": "type",
+       "id": "mixer.task",
+       "name": "Task"
+      }
+     ],
+     "file": "mixer.tasks-1.0.0.zip",
+     "sha256": "4c02a350736cc89ca083b1502af12b2d76951af56be897165db167f85fec8b6e",
+     "size": 3207,
+     "content": "6ebb8c896f7b3ab093980aa28273fed602b41c479f5a39c13f7b0542b9064c07",
+     "published": "2026-10-20T06:06:28.117Z"
+    }
+   ]
+  }
+ ]
+}
