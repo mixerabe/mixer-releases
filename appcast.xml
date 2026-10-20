@@ -1,0 +1,47 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Mixer</title>
+        <item>
+            <title>0.7.0</title>
+            <pubDate>Tue, 20 Oct 2026 11:45:07 -0700</pubDate>
+            <sparkle:version>340</sparkle:version>
+            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/mixerabe/mixer-releases/releases/download/v0.7.0-340/Mixer-0.7.0-340.zip" length="10431778" type="application/octet-stream" sparkle:edSignature="c93vdRpfSVhqyBGz854v8LG/lm0h4OcEegYb1qdTHZF3W6RAZlhdTYgTaE9u2d42oFUb4LMwrNsukzZ9fb2NAQ=="/>
+        </item>
+        <item>
+            <title>0.7.0</title>
+            <pubDate>Mon, 19 Oct 2026 23:41:31 -0700</pubDate>
+            <sparkle:version>317</sparkle:version>
+            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="http://127.0.0.1:4310/Mixer-0.7.0-317.zip" length="309566984" type="application/octet-stream" sparkle:edSignature="bFj2o+YI+43DPoPSD/G+bNaurOWCQO9HOSW9gphHAdRW2dBh6CAYWhkK/vmB9Ger1DRgqZsORp6r2JwVjwyYDw=="/>
+            <sparkle:deltas>
+                <enclosure url="http://127.0.0.1:4310/Mixer317-197.delta" sparkle:deltaFrom="197" length="56380006" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ia/x55AUgnYwa7FKMN56TbCbT9orn5fiSlDXozYkFtdJ6n+5MqK4VNoD8kapk3HHN8LL2a2Dr5Y6j6+genGvAw=="/>
+                <enclosure url="http://127.0.0.1:4310/Mixer317-194.delta" sparkle:deltaFrom="194" length="56327862" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Q0Ev//tgqecqxWVjR9b9H02qaAeIfS6D+VgTfgsNcCcGsYxPm/gDT0IUVmW0pTFnpKSqUr0jUf/uMdQ2NLknCA=="/>
+                <enclosure url="http://127.0.0.1:4310/Mixer317-192.delta" sparkle:deltaFrom="192" length="56429754" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/jmgL3sCvmq7bwj0svUlXnI0+LqPH1SkYcjqhMI0kcebcnS+TJup5v6gtjAfdcY7YuamQs4obY8yd4Pfib2XBA=="/>
+                <enclosure url="http://127.0.0.1:4310/Mixer317-179.delta" sparkle:deltaFrom="179" length="56525998" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3mhJnv1L0v0bUeXEoNZS8nUlFFJOLqcsQD/L6RP8pITJKjVbKjIhUPzM/GnjycamqkKWdpn/Y7i1UmA3R/rzCQ=="/>
+                <enclosure url="http://127.0.0.1:4310/Mixer317-167.delta" sparkle:deltaFrom="167" length="56665478" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JIX6v3qLvO0lPKZT3J/yPd5Zl5Xa/SS4pBi1sQH+HY6ASTehQzRz9+Uwdvjz9nQZfxVMHozk9Xmp0bFtjMi2CA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.7.0</title>
+            <pubDate>Sat, 17 Oct 2026 17:25:48 -0700</pubDate>
+            <sparkle:version>197</sparkle:version>
+            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="http://127.0.0.1:4310/Mixer-0.7.0-197.zip" length="211418391" type="application/octet-stream" sparkle:edSignature="h1JgMY7rBzC6GRXDDwtER/fqW5RHlOmw/jvRRFb0/Rm8+HSafypc2ETvMREjdG/EGosKoV5nX+rWgFNz51X1BA=="/>
+            <sparkle:deltas>
+                <enclosure url="http://127.0.0.1:4310/Mixer197-194.delta" sparkle:deltaFrom="194" length="1174510" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eq4GMeHw051sxzzTg6uC1ZJS97OdwG3griaX6gqzQ4z3dCU14IjplfrtelF/Hzqqg1jK3xXk0OOxkKMAPfu5Cg=="/>
+                <enclosure url="http://127.0.0.1:4310/Mixer197-192.delta" sparkle:deltaFrom="192" length="1234442" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hrZfjq8Hm473+txNenhjaop4YFa6Vh31q89D6lrYbpdFUudR4oYteO+tCJQXOiHUvzWdZ4O71SOgkW2fD3b4Cg=="/>
+                <enclosure url="http://127.0.0.1:4310/Mixer197-179.delta" sparkle:deltaFrom="179" length="1787046" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="oKE4+zxuXook8Vf3kTAea8GBXsE7QWx/m6Z0i+clBs0JKPCCgh6QXLK8MCdsTbWPhQAVRzaAYLynsBLVGGUyBA=="/>
+                <enclosure url="http://127.0.0.1:4310/Mixer197-167.delta" sparkle:deltaFrom="167" length="2458502" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DyN8rU4Ohg0x666V8YLsfvTPk6O88sYaGFOmZDsJRQUrSlaT8ErkUrvZlA3aDLSQlDxkkXnS9IDFFUFzaEp4Ag=="/>
+                <enclosure url="http://127.0.0.1:4310/Mixer197-162.delta" sparkle:deltaFrom="162" length="2386706" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AnqGug/jIRRJTwsgTIF/NTVVSHSpzeQcFptDtX7z166HeiGwx5Wj0j94vHSvS7t9BIOuaO8YLI1tTDR0LSvcBQ=="/>
+            </sparkle:deltas>
+        </item>
+    </channel>
+</rss>
