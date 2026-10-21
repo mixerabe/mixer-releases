@@ -10,10 +10,10 @@ set -eu
 # This release's download for a machine (core/base/updates.ts platformOf names them): its address and SHA-256.
 download() {
   case "$1" in
-    linux-x64-ubuntu-24.04) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.7.0-345/mixer-base-0.7.0-345-linux-x64-ubuntu-24.04.tar.gz' sha256='1ad9f4f8380916ebe0fb9a8aaab011f76057f46fef336a68fa72e3578b51aaec' ;;
-    linux-arm64-ubuntu-24.04) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.7.0-345/mixer-base-0.7.0-345-linux-arm64-ubuntu-24.04.tar.gz' sha256='c3c217656a045fe687e8e11e1124e3b791733f74a48bafa32ac394205bbd673b' ;;
-    linux-x64-debian-13) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.7.0-345/mixer-base-0.7.0-345-linux-x64-debian-13.tar.gz' sha256='f7fd0509458fc8ae517726342de491a39710c497a130c43cdb531244667ed95e' ;;
-    linux-arm64-debian-13) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.7.0-345/mixer-base-0.7.0-345-linux-arm64-debian-13.tar.gz' sha256='fb5834590f98833413fed7ac9f2c40b08099c9621e6d86645ac91adbb6d30e7c' ;;
+    linux-x64-ubuntu-24.04) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-377/mixer-base-0.8.0-377-linux-x64-ubuntu-24.04.tar.gz' sha256='1bd77de70bbc195e80d3a6ae9bafaf434beee3fa3dd125a25217dd19d0379cf5' ;;
+    linux-arm64-ubuntu-24.04) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-377/mixer-base-0.8.0-377-linux-arm64-ubuntu-24.04.tar.gz' sha256='cce268424c6c036804fab0a21d5a807fc0171ac2e44c4c97ba07dc070ad2b77a' ;;
+    linux-x64-debian-13) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-377/mixer-base-0.8.0-377-linux-x64-debian-13.tar.gz' sha256='dbbeea62d945a17e6f4b61467ce85537bb334778481c3fdcf20d88a7055f6c6a' ;;
+    linux-arm64-debian-13) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-377/mixer-base-0.8.0-377-linux-arm64-debian-13.tar.gz' sha256='661dc8ba768f85995653ae8c07ff9ea62c9e38cead22d0a9f642e3f2feb38edd' ;;
     *) return 1 ;;
   esac
 }
@@ -29,6 +29,7 @@ platform_of() {
   echo "linux-$arch-$(. "$2" && echo "${ID:-}-${VERSION_ID:-}")"
 }
 
+# As root: itself, else through sudo (mixer-base install's own rule, core/base/systemd.ts asRoot).
 as_root() {
   if [ "$(id -u)" = 0 ]; then "$@"; else sudo "$@"; fi
 }
