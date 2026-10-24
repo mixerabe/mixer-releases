@@ -4,6 +4,15 @@
         <title>Mixer</title>
         <item>
             <title>0.8.0</title>
+            <pubDate>Fri, 23 Oct 2026 23:23:33 -0700</pubDate>
+            <sparkle:version>389</sparkle:version>
+            <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-389/Mixer-0.8.0-389.zip" length="11697534" type="application/octet-stream" sparkle:edSignature="HE3DhfR164jFyoKgPTQuJr/q3AFh5hDDTPEchDVdIdQgvA5rsf65Ffvzs7k++P/V0gPLKG+JeAHGFVCVHFKuAQ=="/>
+        </item>
+        <item>
+            <title>0.8.0</title>
             <pubDate>Fri, 23 Oct 2026 22:33:06 -0700</pubDate>
             <sparkle:version>387</sparkle:version>
             <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
