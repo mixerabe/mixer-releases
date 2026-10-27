@@ -1,6 +1,6 @@
 {
  "format": 2,
- "published": "2026-10-27T10:13:35.223Z",
+ "published": "2026-10-27T19:09:07.806Z",
  "items": [
   {
    "id": "mixer.bookmarks",
@@ -65,6 +65,34 @@
      "size": 9180,
      "content": "6589d1522da079df507050580aaf4894847f4030e412afe3a0f4bd0b2064ec05",
      "published": "2026-10-27T10:13:35.223Z"
+    },
+    {
+     "version": "1.2.0",
+     "name": "Bookmarks",
+     "icon": "🔖",
+     "author": "Mixer",
+     "description": "Links you save, each with its page's title, description, and cover. Save one with File → Save Link….",
+     "apis": [
+      16
+     ],
+     "needs": [],
+     "adds": [
+      {
+       "kind": "type",
+       "id": "mixer.bookmark",
+       "name": "Bookmark"
+      },
+      {
+       "kind": "action",
+       "id": "mixer.save-bookmark",
+       "name": "Save a link"
+      }
+     ],
+     "file": "mixer.bookmarks-1.2.0.zip",
+     "sha256": "146269d8d0b7d9bfa7da50da89dd7e33d23c22abe514a660f7eaa5a7027bcd70",
+     "size": 8610,
+     "content": "f4da85e0ad77244c870aa11c32871e2b9208a9496f0c1ba87552c123a77976c8",
+     "published": "2026-10-27T19:09:07.806Z"
     }
    ]
   },
@@ -106,7 +134,8 @@
      "author": "Mixer",
      "description": "Notes, your writing, which mentions anything in Mixer, linking it, and embeds it, showing it. Add one about any record from its window, and it shows on that record.",
      "apis": [
-      15
+      15,
+      16
      ],
      "needs": [],
      "adds": [
@@ -177,6 +206,29 @@
      "size": 3223,
      "content": "83cd99e756dd3ead8229beeec6eff2591a3dae91241c5bcbfd9d3e0c5fd3c38d",
      "published": "2026-10-27T10:13:35.223Z"
+    },
+    {
+     "version": "1.2.0",
+     "name": "Tasks",
+     "icon": "☑️",
+     "author": "Mixer",
+     "description": "Your tasks: what's due now, an inbox of those without a date, and what comes later. Add one about any record from its window, and it shows on that record while it's open.",
+     "apis": [
+      16
+     ],
+     "needs": [],
+     "adds": [
+      {
+       "kind": "type",
+       "id": "mixer.task",
+       "name": "Task"
+      }
+     ],
+     "file": "mixer.tasks-1.2.0.zip",
+     "sha256": "8a99f59f7632dc38836f4c61726540448102279293b04e711b6f442c03459d82",
+     "size": 3229,
+     "content": "b5bbf0cc9110d962a57c7b5376c86e4a2422a04c74ebee67ffb4f6a86f6c4576",
+     "published": "2026-10-27T19:09:07.806Z"
     }
    ]
   }
