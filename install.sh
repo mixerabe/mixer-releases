@@ -4,16 +4,16 @@
 # (what follows `sh -s --` goes to `mixer-base install`: `| sh -s -- --listen 0.0.0.0`). It downloads the base built for
 # this machine's distribution and processor, checks it against the SHA-256 below, and runs its `mixer-base install`, which
 # copies it into ~/.local/share/mixer-base, writes its unit, starts it, and prints a link that pairs a device with it.
-# Written for each release (dev/scripts/site.ts) from dev/scripts/install.sh, which names no downloads.
+# Written for each release (scripts/site.ts) from scripts/install.sh, which names no downloads.
 set -eu
 
 # This release's download for a machine (core/base/updates.ts platformOf names them): its address and SHA-256.
 download() {
   case "$1" in
-    linux-x64-ubuntu-24.04) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-401/mixer-base-0.8.0-401-linux-x64-ubuntu-24.04.tar.gz' sha256='6989d3923ec0bd3b59ec88b6007cc7e422a3a18c23317b9a9bbb2b427712990f' ;;
-    linux-arm64-ubuntu-24.04) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-401/mixer-base-0.8.0-401-linux-arm64-ubuntu-24.04.tar.gz' sha256='9a0c7cda957cfdb661100303069c786134b05ae897845d6a56eba11db7031203' ;;
-    linux-x64-debian-13) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-401/mixer-base-0.8.0-401-linux-x64-debian-13.tar.gz' sha256='7b07e37ee2e293dc48eb952c4f3072a46900017a0e57a5b76fe9dcc9c936610a' ;;
-    linux-arm64-debian-13) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-401/mixer-base-0.8.0-401-linux-arm64-debian-13.tar.gz' sha256='179bf5bd1cdb6d154e170af594815c124a7d09b28e4db75c3d166f6ad05636ad' ;;
+    linux-x64-ubuntu-24.04) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-409/mixer-base-0.8.0-409-linux-x64-ubuntu-24.04.tar.gz' sha256='e8f260bf29de0dcf9bca11aa98658d7ac7d63a1f86838b5136bd9cebafcb88ee' ;;
+    linux-arm64-ubuntu-24.04) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-409/mixer-base-0.8.0-409-linux-arm64-ubuntu-24.04.tar.gz' sha256='506a30e3018d494a9230f9580afa201ed70baf2735669ae0569adacc22176870' ;;
+    linux-x64-debian-13) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-409/mixer-base-0.8.0-409-linux-x64-debian-13.tar.gz' sha256='20aef916cacb16e84bd3385780ed9db4d499df91021c2cc8abad64e6f650d046' ;;
+    linux-arm64-debian-13) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-409/mixer-base-0.8.0-409-linux-arm64-debian-13.tar.gz' sha256='3893712218510b3aa2f0ab95b29aaaf657f5e0f24be76b3eba7e0dccf093a2e9' ;;
     *) return 1 ;;
   esac
 }
