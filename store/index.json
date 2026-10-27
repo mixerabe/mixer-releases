@@ -1,6 +1,6 @@
 {
  "format": 2,
- "published": "2026-10-25T02:54:38.098Z",
+ "published": "2026-10-27T10:13:35.223Z",
  "items": [
   {
    "id": "mixer.bookmarks",
@@ -37,6 +37,34 @@
      "size": 9225,
      "content": "bf570c11455a2a4270cdbdb3d23b1f13649c973fbc69d01109090c0fd6078177",
      "published": "2026-10-20T06:06:28.117Z"
+    },
+    {
+     "version": "1.1.0",
+     "name": "Bookmarks",
+     "icon": "🔖",
+     "author": "Mixer",
+     "description": "Links you save, each with its page's title, description, and cover. Save one with File → Save Link….",
+     "apis": [
+      15
+     ],
+     "needs": [],
+     "adds": [
+      {
+       "kind": "type",
+       "id": "mixer.bookmark",
+       "name": "Bookmark"
+      },
+      {
+       "kind": "action",
+       "id": "mixer.save-bookmark",
+       "name": "Save a link"
+      }
+     ],
+     "file": "mixer.bookmarks-1.1.0.zip",
+     "sha256": "3ca3ed322e680df8aeda20520ed2703c982fb5dd89b8cad25b67344b4572957f",
+     "size": 9180,
+     "content": "6589d1522da079df507050580aaf4894847f4030e412afe3a0f4bd0b2064ec05",
+     "published": "2026-10-27T10:13:35.223Z"
     }
    ]
   },
@@ -70,6 +98,29 @@
      "size": 1563,
      "content": "0065648dd26f4ec116f471310434decc901e379bd71cae8ea0d164805a1c3af5",
      "published": "2026-10-20T06:06:28.117Z"
+    },
+    {
+     "version": "1.1.0",
+     "name": "Notes",
+     "icon": "📝",
+     "author": "Mixer",
+     "description": "Notes, your writing, which mentions anything in Mixer, linking it, and embeds it, showing it. Add one about any record from its window, and it shows on that record.",
+     "apis": [
+      15
+     ],
+     "needs": [],
+     "adds": [
+      {
+       "kind": "type",
+       "id": "mixer.note",
+       "name": "Note"
+      }
+     ],
+     "file": "mixer.notes-1.1.0.zip",
+     "sha256": "6616e1ec6f0973fde4f019978078c18792ebb61a6b2280ef719819201f6d0d05",
+     "size": 1668,
+     "content": "b59dce29088253b42e84c098e4685f1240d256d39c130f9bd0a6ccaf7d9b410f",
+     "published": "2026-10-27T10:13:35.223Z"
     }
    ]
   },
@@ -103,6 +154,29 @@
      "size": 3207,
      "content": "6ebb8c896f7b3ab093980aa28273fed602b41c479f5a39c13f7b0542b9064c07",
      "published": "2026-10-20T06:06:28.117Z"
+    },
+    {
+     "version": "1.1.0",
+     "name": "Tasks",
+     "icon": "☑️",
+     "author": "Mixer",
+     "description": "Your tasks: what's due now, an inbox of those without a date, and what comes later. Add one about any record from its window, and it shows on that record while it's open.",
+     "apis": [
+      15
+     ],
+     "needs": [],
+     "adds": [
+      {
+       "kind": "type",
+       "id": "mixer.task",
+       "name": "Task"
+      }
+     ],
+     "file": "mixer.tasks-1.1.0.zip",
+     "sha256": "fedf4a987cad814c8a04daf107bd0fc3286ab3d9266a1445fb64689cbee49904",
+     "size": 3223,
+     "content": "83cd99e756dd3ead8229beeec6eff2591a3dae91241c5bcbfd9d3e0c5fd3c38d",
+     "published": "2026-10-27T10:13:35.223Z"
     }
    ]
   }
