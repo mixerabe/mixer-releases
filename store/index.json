@@ -1,6 +1,6 @@
 {
  "format": 2,
- "published": "2026-11-02T15:58:29.282Z",
+ "published": "2026-11-02T19:59:41.940Z",
  "items": [
   {
    "id": "mixer.bookmarks",
@@ -74,7 +74,8 @@
      "description": "Links you save, each with its page's title, description, and cover. Save one with File → Save Link….",
      "apis": [
       16,
-      17
+      17,
+      18
      ],
      "needs": [],
      "adds": [
@@ -137,7 +138,8 @@
      "apis": [
       15,
       16,
-      17
+      17,
+      18
      ],
      "needs": [],
      "adds": [
@@ -217,7 +219,8 @@
      "description": "Your tasks: what's due now, an inbox of those without a date, and what comes later. Add one about any record from its window, and it shows on that record while it's open.",
      "apis": [
       16,
-      17
+      17,
+      18
      ],
      "needs": [],
      "adds": [
