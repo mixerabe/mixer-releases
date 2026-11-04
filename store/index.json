@@ -1,6 +1,6 @@
 {
  "format": 2,
- "published": "2026-11-04T11:06:46.789Z",
+ "published": "2026-11-04T19:39:52.256Z",
  "items": [
   {
    "id": "mixer.bookmarks",
@@ -103,7 +103,8 @@
      "author": "Mixer",
      "description": "Links you save, each with its page's title, description, and cover. Save one with File → Save Link….",
      "apis": [
-      19
+      19,
+      20
      ],
      "needs": [],
      "adds": [
@@ -205,6 +206,29 @@
      "size": 1681,
      "content": "1e34db2784fbd340ecdaf8dc7bc210ddb0ff4471e40e16ac3e4cdf359e084dd5",
      "published": "2026-11-04T11:06:46.789Z"
+    },
+    {
+     "version": "1.2.1",
+     "name": "Notes",
+     "icon": "📝",
+     "author": "Mixer",
+     "description": "Notes, your writing, which mentions anything in Mixer, linking it, and embeds it, showing it. Add one about any record from its window, and it shows on that record.",
+     "apis": [
+      20
+     ],
+     "needs": [],
+     "adds": [
+      {
+       "kind": "type",
+       "id": "mixer.note",
+       "name": "Note"
+      }
+     ],
+     "file": "mixer.notes-1.2.1.zip",
+     "sha256": "1760403c22b57c2a5b3d0f9ab3a87fe299fabfab9536fb8f685bb433bb007197",
+     "size": 1331,
+     "content": "bf9a80a119dceae22b8d8efd7a96bbbfc07fe37cd120ecc2318843df59cd9d7f",
+     "published": "2026-11-04T19:39:52.256Z"
     }
    ]
   },
@@ -309,6 +333,29 @@
      "size": 3157,
      "content": "815bb4f0396794457c842c775b2906929cf2a0415a690cb9c7e95cb8d52ab11d",
      "published": "2026-11-04T11:06:46.789Z"
+    },
+    {
+     "version": "1.3.1",
+     "name": "Tasks",
+     "icon": "☑️",
+     "author": "Mixer",
+     "description": "Everything to do: your tasks, and every record with done and due, whatever it is (a bill, a chore of yours). What's due now, an inbox of what has no date, and what comes later. Add a task about any record from its window, and it shows on that record while it's open.",
+     "apis": [
+      20
+     ],
+     "needs": [],
+     "adds": [
+      {
+       "kind": "type",
+       "id": "mixer.task",
+       "name": "Task"
+      }
+     ],
+     "file": "mixer.tasks-1.3.1.zip",
+     "sha256": "0df7347621da159d16d01cbb29058a23342c5b49bc4ac205c7abb942331f82b2",
+     "size": 2780,
+     "content": "6871d2be5916223b6e3d725382c894589abab6002f72331c46438ca9daafbe9b",
+     "published": "2026-11-04T19:39:52.256Z"
     }
    ]
   }
