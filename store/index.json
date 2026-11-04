@@ -1,6 +1,6 @@
 {
  "format": 2,
- "published": "2026-11-04T22:00:27.758Z",
+ "published": "2026-11-04T23:14:10.664Z",
  "items": [
   {
    "id": "mixer.bookmarks",
@@ -133,7 +133,8 @@
      "description": "Links you save, each with its page's title, description, and cover. Save one with File → Save Link….",
      "apis": [
       21,
-      22
+      22,
+      23
      ],
      "needs": [],
      "adds": [
@@ -267,7 +268,8 @@
      "description": "Notes, your writing, which mentions anything in Mixer, linking it, and embeds it, showing it. Add one about any record from its window, and it shows on that record.",
      "apis": [
       21,
-      22
+      22,
+      23
      ],
      "needs": [],
      "adds": [
@@ -418,7 +420,8 @@
      "description": "Everything to do: your tasks, and every record with done and due, whatever it is (a bill, a chore of yours). What's due now, an inbox of what has no date, and what comes later. Add a task about any record from its window, and it shows on that record while it's open.",
      "apis": [
       21,
-      22
+      22,
+      23
      ],
      "needs": [],
      "adds": [
