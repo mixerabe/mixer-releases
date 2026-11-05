@@ -1,48 +1,48 @@
 {
   "latest": {
     "version": "0.8.0",
-    "number": 448,
-    "commit": "3945346",
-    "published": "2026-11-05T19:42:28.207Z",
+    "number": 450,
+    "commit": "bbb6229",
+    "published": "2026-11-05T23:31:55.452Z",
     "protocol": {
       "oldest": 21,
       "newest": 21
     },
     "downloads": {
       "macos-arm64": {
-        "url": "https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-448/MixerBase-0.8.0-448.zip",
-        "size": 143571337,
-        "unpacked": 484801862,
-        "sha256": "945511ab908ec741c1de69df7548089e5b6a2bf7d9da3c5578c36a589b63532b",
-        "signature": "395SBEsXnShwO7RAjT1ieOzD7ZGsN6dke5lbgK/O2a8l6s753n5f7PjexrWhkS1Lm/Nm/aLfMKN6iHvk+aOaCQ=="
+        "url": "https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-450/MixerBase-0.8.0-450.zip",
+        "size": 143575849,
+        "unpacked": 484815508,
+        "sha256": "72897a17b7c4127a71a2fe070dee5fa1c3533968f64ccf9b41a307adab7e48a6",
+        "signature": "Mvb1RK9YEmk4BZ3MAXvpoopvHKe4M/rF6a8jx5FQUXhyMJ1Y1bsgQCvaRdXe9e3jdBLOucHdT0ddlDSNdlasBw=="
       },
       "linux-x64-ubuntu-24.04": {
-        "url": "https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-448/mixer-base-0.8.0-448-linux-x64-ubuntu-24.04.tar.gz",
-        "size": 125656604,
-        "unpacked": 381140367,
-        "sha256": "ccee70da4bbc07414826440ca58fe498a63a76fad82bf992cf20d46a37fe19df",
-        "signature": "0vM1pG5UhEPDTV9sSLGR4ubAiWgdWxVvQfFDBoTimRzCiLS2+Uau/SWoSMjdgOSmjeXTTyegrpyxVnXRnTTQCg=="
+        "url": "https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-450/mixer-base-0.8.0-450-linux-x64-ubuntu-24.04.tar.gz",
+        "size": 125659305,
+        "unpacked": 381151293,
+        "sha256": "f653dd35874c60b1904f1db1b83be58c8e37a2687ef3b8d4b7e24186b20212dc",
+        "signature": "7vWYMFSN1UEjiK3OUOknQ9oo9E4hj7YHWBkKFBSxNCfzhMey/TI9fclAWXVo4qKBkrFYVvtPgO57fpmJGx6VBQ=="
       },
       "linux-arm64-ubuntu-24.04": {
-        "url": "https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-448/mixer-base-0.8.0-448-linux-arm64-ubuntu-24.04.tar.gz",
-        "size": 120270835,
-        "unpacked": 363503392,
-        "sha256": "ddebcb0d960a3f9ed24373dffe7187bc42cb443cac0f1627fa0e3b81a921c018",
-        "signature": "lRQEhIsPYqk/xQQaX94Z6A2uvKu9cohFLpAWdJvl3JJIBrN8Nr2qw2w6ssDzpB0mU8yBs390pvVjcb0FaXXQCQ=="
+        "url": "https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-450/mixer-base-0.8.0-450-linux-arm64-ubuntu-24.04.tar.gz",
+        "size": 120275336,
+        "unpacked": 363514318,
+        "sha256": "b547a8fe631482f631ebd3dbf82bf26d3a87901a03e0eeca02e6f93950c9bcd2",
+        "signature": "idfkqOeU/v9sJHqKHNnBTL4qkRy6vcX9CxHYBFoZcio1hxsmEa0iweuStED2Cih4TuOCRIIhJzH5zVkKRtGdCg=="
       },
       "linux-x64-debian-13": {
-        "url": "https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-448/mixer-base-0.8.0-448-linux-x64-debian-13.tar.gz",
-        "size": 121148520,
-        "unpacked": 363688035,
-        "sha256": "81ff5301e79720703d7c385f0c14884b9190738d9f5e194e8bac0398018f74dd",
-        "signature": "wFUUjg/tsJ+Pu63xUtatWQQnwG6LM8mXE+g08tXVr44qqC+4t+jTBmARMK2hNUksZ1BYYl0g6w96QS+s1sWFCQ=="
+        "url": "https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-450/mixer-base-0.8.0-450-linux-x64-debian-13.tar.gz",
+        "size": 121151293,
+        "unpacked": 363698961,
+        "sha256": "795de75c58783b3b3335cfb8495636e3bd31e7dd6065fee2767c53b77995016a",
+        "signature": "Hl0STgCa8cVmIloIyEzYkP1BKGzUXtmB/7HTUUuLOHXaW/Xm4zJr/2MzNJRNLCzqSo4/Y6kA54IISxpaVHQ6Cw=="
       },
       "linux-arm64-debian-13": {
-        "url": "https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-448/mixer-base-0.8.0-448-linux-arm64-debian-13.tar.gz",
-        "size": 118382576,
-        "unpacked": 357856397,
-        "sha256": "bbc2634821bfb3f5b78cc70533fb1dc1265bff8720bb28905a2cc55dfadf1549",
-        "signature": "Mq+FOHuPdcDnj2g24mTJ8eJZewdffm/BGgjpvwAkQGk4KpFdCpthODvo8McJflEvMz0POsJwFbRKr11I+yx9CQ=="
+        "url": "https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-450/mixer-base-0.8.0-450-linux-arm64-debian-13.tar.gz",
+        "size": 118383804,
+        "unpacked": 357867323,
+        "sha256": "15859112f0cee6d272074d9dc8ef8d767443c1dd00b76a5cba276d258884dea7",
+        "signature": "h2dzgww4YakhVF9gIUCeHQYQcHIudnsuU8gjL3ejYG427lD66GZcX2a+sk732/xbJC4AkbrQIf0+XPGuUZhAAQ=="
       }
     }
   }
