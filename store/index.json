@@ -1,6 +1,6 @@
 {
  "format": 2,
- "published": "2026-11-05T05:00:58.058Z",
+ "published": "2026-11-05T09:57:54.671Z",
  "items": [
   {
    "id": "mixer.bookmarks",
@@ -163,7 +163,8 @@
      "description": "Links you save, each with its page's title, description, and cover. Save one with File → Save Link….",
      "apis": [
       24,
-      25
+      25,
+      26
      ],
      "needs": [],
      "adds": [
