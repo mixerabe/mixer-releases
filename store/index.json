@@ -1,6 +1,6 @@
 {
- "format": 2,
- "published": "2026-11-06T02:47:32.711Z",
+ "format": 3,
+ "published": "2026-11-06T03:15:26.193Z",
  "items": [
   {
    "id": "mixer.bookmarks",
@@ -186,6 +186,31 @@
      "size": 5607,
      "content": "4a1d3c42991a326ad1eb12b4a9dadc3364b86a007afac5027cdb81c3e55d7f63",
      "published": "2026-11-05T01:31:54.518Z"
+    },
+    {
+     "version": "2.0.0",
+     "name": "Bookmarks",
+     "icon": "🔖",
+     "author": "Mixer",
+     "description": "Links you save, each with its page's title, description, and cover. Save one with File → Save Link….",
+     "apis": [
+      29
+     ],
+     "needs": [
+      "mixer.bookmark"
+     ],
+     "adds": [
+      {
+       "kind": "action",
+       "id": "mixer.save-bookmark",
+       "name": "Save a link"
+      }
+     ],
+     "file": "mixer.bookmarks-2.0.0.zip",
+     "sha256": "edcc2867bea8b84a6aa6e7670a70cd6cbddfa0e5ccb9c9669aa4f7c0d0bb32d5",
+     "size": 5210,
+     "content": "d01d22b4be8b1a0ce46e98e4a1a8c18b73859c80848d0e0aea4f56e16bdf6d85",
+     "published": "2026-11-06T03:15:26.193Z"
     }
    ]
   },
@@ -514,6 +539,29 @@
      "size": 2362,
      "content": "db5efa7d4c7f3dfe72122f697e269ded0573b544afb486e15920879dab70b647",
      "published": "2026-11-05T01:31:54.518Z"
+    }
+   ]
+  },
+  {
+   "id": "mixer.bookmark",
+   "kind": "type",
+   "versions": [
+    {
+     "version": "1.0.0",
+     "name": "Bookmark",
+     "icon": "🔖",
+     "author": "Mixer",
+     "description": "A bookmark is a web page you keep, to find it again or come back to it: its link, the page's own description and cover image, and your note. Saving a link you already have opens the bookmark you have.",
+     "apis": [
+      29
+     ],
+     "needs": [],
+     "adds": [],
+     "file": "mixer.bookmark-1.0.0.zip",
+     "sha256": "958dda3864eb79c69ae4b50ec96091722c30c16bf9490a02c75b1921ca036747",
+     "size": 454,
+     "content": "5169dfa721bf397be5764901e454cf7f15e03f252f16f7df16dd3b8c09fe133b",
+     "published": "2026-11-06T03:15:26.193Z"
     }
    ]
   }
