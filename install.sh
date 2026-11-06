@@ -10,10 +10,10 @@ set -eu
 # This release's download for a machine (core/base/updates.ts platformOf names them): its address and SHA-256.
 download() {
   case "$1" in
-    linux-x64-ubuntu-24.04) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-453/mixer-base-0.8.0-453-linux-x64-ubuntu-24.04.tar.gz' sha256='b66196647fb74951705d29e0c039a3fbfaed5aea704feb70ab87be785b11e327' ;;
-    linux-arm64-ubuntu-24.04) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-453/mixer-base-0.8.0-453-linux-arm64-ubuntu-24.04.tar.gz' sha256='a2a8e4e041d0c4c22f1c1094112b1f66e8823f997f05c98f9a1661a23d7e8e68' ;;
-    linux-x64-debian-13) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-453/mixer-base-0.8.0-453-linux-x64-debian-13.tar.gz' sha256='d237143b544eb915fcd34df70f9185587d5bf5a7ad5556f819b1650172fcd7a3' ;;
-    linux-arm64-debian-13) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-453/mixer-base-0.8.0-453-linux-arm64-debian-13.tar.gz' sha256='f085d31643c013f2e6f9021b572c6857a9f047c8bad8e1363bf624da092d0b5d' ;;
+    linux-x64-ubuntu-24.04) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-456/mixer-base-0.8.0-456-linux-x64-ubuntu-24.04.tar.gz' sha256='c4d84889080df634cbaa5daf0d3d24a7a1875e869613a7ef6a256bbc4e427f75' ;;
+    linux-arm64-ubuntu-24.04) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-456/mixer-base-0.8.0-456-linux-arm64-ubuntu-24.04.tar.gz' sha256='10cf26e918e968f8b9d5d3469c79e2858a22754a1df52e19397095ad510ac934' ;;
+    linux-x64-debian-13) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-456/mixer-base-0.8.0-456-linux-x64-debian-13.tar.gz' sha256='a17f917f291c8124d732be697ebad1505a39c102eb377af464f9da28fd5e3977' ;;
+    linux-arm64-debian-13) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-456/mixer-base-0.8.0-456-linux-arm64-debian-13.tar.gz' sha256='2cef91ff6ca869c95e5bea8063a280018c17e4676565fa35b058d1bfecbf8e04' ;;
     *) return 1 ;;
   esac
 }
