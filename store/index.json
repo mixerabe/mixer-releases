@@ -1,6 +1,6 @@
 {
  "format": 2,
- "published": "2026-11-05T09:57:54.671Z",
+ "published": "2026-11-06T00:33:05.723Z",
  "items": [
   {
    "id": "mixer.bookmarks",
@@ -164,7 +164,8 @@
      "apis": [
       24,
       25,
-      26
+      26,
+      27
      ],
      "needs": [],
      "adds": [
