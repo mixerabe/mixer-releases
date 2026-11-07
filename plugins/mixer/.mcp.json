@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "mixer": {
+      "command": "/Applications/Mixer.app/Contents/MacOS/mixer-mcp"
+    }
+  }
+}
