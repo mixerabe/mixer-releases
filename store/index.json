@@ -1,6 +1,6 @@
 {
  "format": 3,
- "published": "2026-11-07T02:24:15.688Z",
+ "published": "2026-11-07T21:32:05.069Z",
  "items": [
   {
    "id": "mixer.bookmarks",
@@ -565,6 +565,23 @@
      "size": 454,
      "content": "5169dfa721bf397be5764901e454cf7f15e03f252f16f7df16dd3b8c09fe133b",
      "published": "2026-11-06T03:15:26.193Z"
+    },
+    {
+     "version": "1.0.1",
+     "name": "Bookmark",
+     "icon": "🔖",
+     "author": "Mixer",
+     "description": "A bookmark is a web page kept: its link, the page's own description and cover image, and a note on it. Saving a link already kept opens its bookmark.",
+     "apis": [
+      32
+     ],
+     "needs": [],
+     "adds": [],
+     "file": "mixer.bookmark-1.0.1.zip",
+     "sha256": "dbcb82d8af5d6c6f983a9a0d47b5cfd9be4b0784a5f75cf5a280f35399db05bc",
+     "size": 420,
+     "content": "af755dd40b4f38da4d5e86ebdc2010313d2b56732547d0480f09345824e9c8c3",
+     "published": "2026-11-07T21:32:05.069Z"
     }
    ]
   }
