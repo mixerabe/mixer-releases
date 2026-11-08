@@ -10,10 +10,8 @@ set -eu
 # This release's download for a machine (core/base/updates.ts platformOf names them): its address and SHA-256.
 download() {
   case "$1" in
-    linux-x64-ubuntu-24.04) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-486/mixer-base-0.8.0-486-linux-x64-ubuntu-24.04.tar.gz' sha256='0f30db4395f9154ec15f3c1e6fe10566829268ab194426c2442e82ca6091ba89' ;;
-    linux-arm64-ubuntu-24.04) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-486/mixer-base-0.8.0-486-linux-arm64-ubuntu-24.04.tar.gz' sha256='492e6d5dd448bfe581eafef27202f21d4c6b6b43017542f1ad9e1f5f3156c64c' ;;
-    linux-x64-debian-13) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-486/mixer-base-0.8.0-486-linux-x64-debian-13.tar.gz' sha256='ca7db7555ef3c205832c0c3a7a7d860bf74f951df275685dcf1acba58111b660' ;;
-    linux-arm64-debian-13) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-486/mixer-base-0.8.0-486-linux-arm64-debian-13.tar.gz' sha256='16f78841bf928c121a210232b84b1b8a4a3a17d5973de7e70c698fdcf4cda867' ;;
+    linux-x64-ubuntu-24.04) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-495/mixer-base-0.8.0-495-linux-x64-ubuntu-24.04.tar.gz' sha256='e9dfaebf28deb6c2d1273991e01b215145a8c8e433be7e0ac8830a571d6ac164' ;;
+    linux-arm64-ubuntu-24.04) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-495/mixer-base-0.8.0-495-linux-arm64-ubuntu-24.04.tar.gz' sha256='56e746eaf0e3bc1910afd5f1a5184827dcd023422dfc7c9ebd4aed450843bfaa' ;;
     *) return 1 ;;
   esac
 }
@@ -45,7 +43,7 @@ main() {
   fi
   platform=$(platform_of "$(uname -m)" /etc/os-release)
   if ! download "$platform"; then
-    echo "Mixer's base isn't built for $platform, only for: linux-x64-ubuntu-24.04 linux-arm64-ubuntu-24.04 linux-x64-debian-13 linux-arm64-debian-13." >&2
+    echo "Mixer's base isn't built for this machine ($platform), only for: linux-x64-ubuntu-24.04, linux-arm64-ubuntu-24.04." >&2
     exit 1
   fi
 
