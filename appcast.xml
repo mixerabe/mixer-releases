@@ -4,6 +4,15 @@
         <title>Mixer</title>
         <item>
             <title>0.8.0</title>
+            <pubDate>Sun, 08 Nov 2026 16:27:03 -0800</pubDate>
+            <sparkle:version>510</sparkle:version>
+            <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-510/Mixer-0.8.0-510.zip" length="11971170" type="application/octet-stream" sparkle:edSignature="TSZrLgopw2gSDxqs1RIqfGT2CIGd/aTdC8rsx0SS8TRcvrmyVvj5lCO6gjEV84Iam3ALTkMrw7wu5rP4JeARBQ=="/>
+        </item>
+        <item>
+            <title>0.8.0</title>
             <pubDate>Sun, 08 Nov 2026 09:28:50 -0800</pubDate>
             <sparkle:version>507</sparkle:version>
             <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
@@ -19,15 +28,6 @@
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-503/Mixer-0.8.0-503.zip" length="11978139" type="application/octet-stream" sparkle:edSignature="eq6vD4021inKESramDAw2PUYSFZfuXiKgPMQ2DZ1KODSwCnZjPgnu6Qeu9toDnhVyeJvncJnmA7ZpQoHuI0tDA=="/>
-        </item>
-        <item>
-            <title>0.8.0</title>
-            <pubDate>Sat, 07 Nov 2026 20:59:38 -0800</pubDate>
-            <sparkle:version>495</sparkle:version>
-            <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/mixerabe/mixer-releases/releases/download/v0.8.0-495/Mixer-0.8.0-495.zip" length="11982438" type="application/octet-stream" sparkle:edSignature="yWT0JvXvhkCll5+phuxWCnL6IjT5AWVYtjP8kvR2yf2usuiLco5uNjGazO/krSzaELb2tvj6EZGt1p7gQ8meDg=="/>
         </item>
         <item>
             <title>0.7.0</title>
