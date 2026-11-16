@@ -3,6 +3,15 @@
     <channel>
         <title>Mixer</title>
         <item>
+            <title>0.8.4</title>
+            <pubDate>Mon, 16 Nov 2026 08:49:16 -0800</pubDate>
+            <sparkle:version>530</sparkle:version>
+            <sparkle:shortVersionString>0.8.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/mixerabe/mixer-releases/releases/download/v0.8.4-530/Mixer-0.8.4-530.zip" length="13572490" type="application/octet-stream" sparkle:edSignature="J8w7NFo5QePYiFk7brJYriKbMpXjTJKYFoDpbGAMRXQtVK0fh2ESDGzxYufGrtS5g+NQc9+W9MTvfnyz0Z5HAg=="/>
+        </item>
+        <item>
             <title>0.8.3</title>
             <pubDate>Mon, 16 Nov 2026 01:58:34 -0800</pubDate>
             <sparkle:version>528</sparkle:version>
@@ -19,15 +28,6 @@
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/mixerabe/mixer-releases/releases/download/v0.8.2-523/Mixer-0.8.2-523.zip" length="13422805" type="application/octet-stream" sparkle:edSignature="2TRxT7zji44Y42p/ekC8Yc1SLpKGayRUXhRqS9Q+fSHAsfy5kl2gp5yk7/pd06Kp5j9s1Sbrv1RyuGJUiCT3Bg=="/>
-        </item>
-        <item>
-            <title>0.8.1</title>
-            <pubDate>Sun, 15 Nov 2026 19:59:56 -0800</pubDate>
-            <sparkle:version>521</sparkle:version>
-            <sparkle:shortVersionString>0.8.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/mixerabe/mixer-releases/releases/download/v0.8.1-521/Mixer-0.8.1-521.zip" length="13398672" type="application/octet-stream" sparkle:edSignature="Ecjgm5lWUYGbCdcz5B9/8TZZzghgzpSPHeVa4uWjtKb3tySJN8OBmmdASaY7I5GeoWLzkwl2MKMXPX1s1SHxAg=="/>
         </item>
         <item>
             <title>0.7.0</title>
