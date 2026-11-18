@@ -1,6 +1,6 @@
 {
  "format": 3,
- "published": "2026-11-17T22:17:03.521Z",
+ "published": "2026-11-18T01:47:59.436Z",
  "items": [
   {
    "id": "mixer.bookmarks",
@@ -598,7 +598,8 @@
      "author": "Mixer",
      "description": "A bookmark is a web page kept: its link, the page's own description and cover image, and a note on it. Saving a link already kept opens its bookmark.",
      "apis": [
-      45
+      45,
+      46
      ],
      "needs": [],
      "adds": [],
