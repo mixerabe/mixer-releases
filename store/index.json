@@ -1,6 +1,6 @@
 {
  "format": 3,
- "published": "2026-11-18T01:47:59.436Z",
+ "published": "2026-11-19T21:16:47.286Z",
  "items": [
   {
    "id": "mixer.bookmarks",
@@ -608,6 +608,48 @@
      "size": 426,
      "content": "24b3154f62711b09fda75da078afa33a55699b9924d8ce433e41b82f829de6bb",
      "published": "2026-11-17T22:17:03.521Z"
+    },
+    {
+     "version": "1.1.0",
+     "name": "Bookmark",
+     "icon": "🔖",
+     "author": "Mixer",
+     "description": "A bookmark is a web page kept: its link, the page's own description and cover image, and a note on it. Saving a link already kept opens its bookmark.",
+     "apis": [
+      47
+     ],
+     "needs": [
+      "mixer.link"
+     ],
+     "adds": [],
+     "file": "mixer.bookmark-1.1.0.zip",
+     "sha256": "7027b189b62e4fe97bc36ea60b0e76232cdaf126b17b83c2414470e0e271fc38",
+     "size": 457,
+     "content": "e4b3fff58cd56a36c0b6f045fc61bfd1e9a7d8a591883dc02f1c2a160a9ba2de",
+     "published": "2026-11-19T21:16:47.286Z"
+    }
+   ]
+  },
+  {
+   "id": "mixer.link",
+   "kind": "app",
+   "versions": [
+    {
+     "version": "1.0.0",
+     "name": "Link",
+     "icon": "🔗",
+     "author": "Mixer",
+     "description": "A web page: its link, the page's own description and cover image, and its site.",
+     "apis": [
+      47
+     ],
+     "needs": [],
+     "adds": [],
+     "file": "mixer.link-1.0.0.zip",
+     "sha256": "ab11a4ce8c14995d3a2ca4364399f2a6d61ec3ef6fa73f1f6db79cfee2402f4c",
+     "size": 915,
+     "content": "82fd0c23855703697a4f6d2b8f4fea1acf0a4f7a72af8d9dee40c9de89676214",
+     "published": "2026-11-19T21:16:47.286Z"
     }
    ]
   }
