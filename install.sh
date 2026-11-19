@@ -10,8 +10,8 @@ set -eu
 # This release's download for a machine (core/base/updates.ts platformOf names them): its address and SHA-256.
 download() {
   case "$1" in
-    linux-x64-ubuntu-24.04) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.8.9-554/mixer-base-0.8.9-554-linux-x64-ubuntu-24.04.tar.gz' sha256='719f4dd9457f718df46dc6595ec79a42b2549918687a08da16aa043e1be6abf5' ;;
-    linux-arm64-ubuntu-24.04) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.8.9-554/mixer-base-0.8.9-554-linux-arm64-ubuntu-24.04.tar.gz' sha256='1e9fd94382a3b68a162bc269cf8ef737605d8df5a750afa4b4ddf015e7a869f0' ;;
+    linux-x64-ubuntu-24.04) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.8.10-556/mixer-base-0.8.10-556-linux-x64-ubuntu-24.04.tar.gz' sha256='74a940b58b41a9f3cbb0f0ba0569e28abfd3010b1e21a962b56fcedc85a875fd' ;;
+    linux-arm64-ubuntu-24.04) url='https://github.com/mixerabe/mixer-releases/releases/download/v0.8.10-556/mixer-base-0.8.10-556-linux-arm64-ubuntu-24.04.tar.gz' sha256='4cccd66aad326f2038a790009aa42cb06fa72d2ff4518a1cd06ba37e0fae1bf8' ;;
     *) return 1 ;;
   esac
 }
