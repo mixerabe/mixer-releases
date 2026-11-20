@@ -1,6 +1,6 @@
 {
  "format": 3,
- "published": "2026-11-20T08:42:52.873Z",
+ "published": "2026-11-20T10:30:41.799Z",
  "items": [
   {
    "id": "mixer.bookmarks",
@@ -654,6 +654,23 @@
      "size": 915,
      "content": "82fd0c23855703697a4f6d2b8f4fea1acf0a4f7a72af8d9dee40c9de89676214",
      "published": "2026-11-19T21:16:47.286Z"
+    },
+    {
+     "version": "1.2.0",
+     "name": "Link",
+     "icon": "🔗",
+     "author": "Mixer",
+     "description": "A web page: its link, the page's own description and cover image, and its site.",
+     "apis": [
+      53
+     ],
+     "needs": [],
+     "adds": [],
+     "file": "mixer.link-1.2.0.zip",
+     "sha256": "a437af8cafcb7ff92011ccf588914a925f35be1512d94bcda2bcc27fdff328e6",
+     "size": 1479,
+     "content": "7c9377f599cf6ee5d3211e04140fe3b1c6a9fa60316eef83d5b8a5fd4888a445",
+     "published": "2026-11-20T10:30:41.799Z"
     }
    ]
   }
