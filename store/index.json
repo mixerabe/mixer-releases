@@ -1,6 +1,6 @@
 {
  "format": 3,
- "published": "2026-11-20T12:08:23.189Z",
+ "published": "2026-11-20T17:58:02.750Z",
  "items": [
   {
    "id": "mixer.bookmarks",
@@ -618,7 +618,8 @@
      "apis": [
       47,
       51,
-      53
+      53,
+      55
      ],
      "needs": [
       "mixer.link"
@@ -662,7 +663,8 @@
      "author": "Mixer",
      "description": "A web page: its link, the page's own description and cover image, and its site.",
      "apis": [
-      53
+      53,
+      55
      ],
      "needs": [],
      "adds": [],
@@ -685,7 +687,8 @@
      "author": "Mixer",
      "description": "AI is one question to an AI model (OpenAI's), asked as a workflow's step: a prompt and instructions, with the records the step gives it, answered in words or in the fields the step asks for, with the web's search when the step says so.",
      "apis": [
-      53
+      53,
+      55
      ],
      "needs": [],
      "adds": [],
@@ -694,6 +697,52 @@
      "size": 1095,
      "content": "141dc8e4ddb3fffe1726679e3f6caef5473ac414ee3501051b0717bb62f88187",
      "published": "2026-11-20T12:08:23.189Z"
+    }
+   ]
+  },
+  {
+   "id": "mixer.ask",
+   "kind": "app",
+   "versions": [
+    {
+     "version": "1.0.0",
+     "name": "Ask",
+     "icon": "🙋",
+     "author": "Mixer",
+     "description": "Ask is a question to the user, asked as a workflow's step: the answers it offers, or their own words, its run waiting in Needs you until they answer.",
+     "apis": [
+      55
+     ],
+     "needs": [],
+     "adds": [],
+     "file": "mixer.ask-1.0.0.zip",
+     "sha256": "c57d38d629a37461bc551a63f78455eeb7eafa09143173ead3d8dce63ada87be",
+     "size": 915,
+     "content": "6a82bfe8c4150ed2d4d6b0f18eceb4f69d3af4b4d817e87b6ae4fbe68d296491",
+     "published": "2026-11-20T17:58:02.750Z"
+    }
+   ]
+  },
+  {
+   "id": "mixer.notify",
+   "kind": "app",
+   "versions": [
+    {
+     "version": "1.0.0",
+     "name": "Notify",
+     "icon": "🔔",
+     "author": "Mixer",
+     "description": "Notify is a notification to the user, sent as a workflow's step: a notice in Mixer and the system's, opening its run or a record the step gives it, a later one of the same workflow replacing it.",
+     "apis": [
+      55
+     ],
+     "needs": [],
+     "adds": [],
+     "file": "mixer.notify-1.0.0.zip",
+     "sha256": "daee962dfd0f944491e768cbae37a6f904a3dd8a86847abbdfc17bcb6927220a",
+     "size": 801,
+     "content": "042e11c0af46986f1563b59493e922ead3ab84e74e4cf16cdd868e4c1b6ed276",
+     "published": "2026-11-20T17:58:02.750Z"
     }
    ]
   }
