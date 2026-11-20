@@ -1,6 +1,6 @@
 {
  "format": 3,
- "published": "2026-11-20T10:30:41.799Z",
+ "published": "2026-11-20T12:08:23.189Z",
  "items": [
   {
    "id": "mixer.bookmarks",
@@ -671,6 +671,29 @@
      "size": 1479,
      "content": "7c9377f599cf6ee5d3211e04140fe3b1c6a9fa60316eef83d5b8a5fd4888a445",
      "published": "2026-11-20T10:30:41.799Z"
+    }
+   ]
+  },
+  {
+   "id": "mixer.ai-model",
+   "kind": "app",
+   "versions": [
+    {
+     "version": "1.0.0",
+     "name": "AI",
+     "icon": "✨",
+     "author": "Mixer",
+     "description": "AI is one question to an AI model (OpenAI's), asked as a workflow's step: a prompt and instructions, with the records the step gives it, answered in words or in the fields the step asks for, with the web's search when the step says so.",
+     "apis": [
+      53
+     ],
+     "needs": [],
+     "adds": [],
+     "file": "mixer.ai-model-1.0.0.zip",
+     "sha256": "cdee835a6ed57811269dab5c3e117608edc66a181fd508ff82328ab19344afdf",
+     "size": 1095,
+     "content": "141dc8e4ddb3fffe1726679e3f6caef5473ac414ee3501051b0717bb62f88187",
+     "published": "2026-11-20T12:08:23.189Z"
     }
    ]
   }
