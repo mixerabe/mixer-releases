@@ -1,34 +1,34 @@
 {
   "latest": {
-    "version": "0.8.11",
-    "number": 560,
-    "commit": "0f718c5",
-    "published": "2026-11-20T04:55:01.484Z",
+    "version": "0.8.12",
+    "number": 569,
+    "commit": "04ae911",
+    "published": "2026-11-20T08:50:12.695Z",
     "protocol": {
-      "oldest": 46,
-      "newest": 46
+      "oldest": 48,
+      "newest": 48
     },
     "downloads": {
       "macos-arm64": {
-        "url": "https://github.com/mixerabe/mixer-releases/releases/download/v0.8.11-560/MixerBase-0.8.11-560.zip",
-        "size": 143741323,
-        "unpacked": 485521216,
-        "sha256": "4f532d1da055d7c64a2016bc17523bf84176c3ec7a05c72f58e8ee3d1679a7f3",
-        "signature": "DnL5u7bcRo5o967tIdX/yHFfoBhgrUTeh/UmKX33ltsPG4dO9jT836R6KLuKYLKomh9wjzWTA4JYFht9KoQ/CQ=="
+        "url": "https://github.com/mixerabe/mixer-releases/releases/download/v0.8.12-569/MixerBase-0.8.12-569.zip",
+        "size": 143750974,
+        "unpacked": 485597474,
+        "sha256": "beb3aa2be9ff5f6bb215ba978fe0294cead91af9fddf0b4a84ee22926005592c",
+        "signature": "3tnyxws2S3sfTo31ezjoZcxi+YYSu4uPWZdwWB53cIrciviPtwvfgvMbhpIuhSzIFJuuiCHGWAOccGcR4PYwAQ=="
       },
       "linux-x64-ubuntu-24.04": {
-        "url": "https://github.com/mixerabe/mixer-releases/releases/download/v0.8.11-560/mixer-base-0.8.11-560-linux-x64-ubuntu-24.04.tar.gz",
-        "size": 125720806,
-        "unpacked": 381334886,
-        "sha256": "22bdfb1d4a54a25bfd7813d5a1204906d264f4195898fd8bd0d6a8e5222bd98c",
-        "signature": "UIGmi7270q1/u2Z90VG1sfZIGVDHkUA8znPzkH8geJqo42o9ScgPomY0iuRY+pYSdzGUsgmlx8b8uFzNJvF+BQ=="
+        "url": "https://github.com/mixerabe/mixer-releases/releases/download/v0.8.12-569/mixer-base-0.8.12-569-linux-x64-ubuntu-24.04.tar.gz",
+        "size": 125701209,
+        "unpacked": 381247780,
+        "sha256": "394dfff8eb7f4ee7312c8decb8adc92b8c5a89c6be8eaa7fe9e5b3e78097e353",
+        "signature": "I/xfjT7G6nhYCadJ9sOahD40xv1jDUn1O1Evy9FAQ4E16vg1HfGV/4BYIT0pPvIPmxnUsbjwmC1aklgPjByyBg=="
       },
       "linux-arm64-ubuntu-24.04": {
-        "url": "https://github.com/mixerabe/mixer-releases/releases/download/v0.8.11-560/mixer-base-0.8.11-560-linux-arm64-ubuntu-24.04.tar.gz",
-        "size": 120334687,
-        "unpacked": 363697911,
-        "sha256": "503c3836e0cafd34733a8eabbf4e199f75c732707625f55f3c2f297ea7eb9de7",
-        "signature": "gPV9YoFHiC11ERPS0PQ4fOHCYCdEjHn10RNRpOn2il98myNZm+D1lrN44DGMNeOK9IsCQSNqwpGtMZ/7DXvRAg=="
+        "url": "https://github.com/mixerabe/mixer-releases/releases/download/v0.8.12-569/mixer-base-0.8.12-569-linux-arm64-ubuntu-24.04.tar.gz",
+        "size": 120307357,
+        "unpacked": 363610805,
+        "sha256": "4f3d9cac6629b595b5802b204bd82f2a95a8a97672b9a11d553bd1aaf994b668",
+        "signature": "IQzACoheTBDUWjlijnxPyVCUywenxVtLQZWrAlJzj2i9/+POD/8AYN9nVxzkKBqPDCLme2SqG3v1INwR+Lv4Dg=="
       }
     }
   }
