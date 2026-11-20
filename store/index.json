@@ -1,6 +1,6 @@
 {
  "format": 3,
- "published": "2026-11-20T17:58:02.750Z",
+ "published": "2026-11-20T18:37:43.345Z",
  "items": [
   {
    "id": "mixer.bookmarks",
@@ -619,7 +619,8 @@
       47,
       51,
       53,
-      55
+      55,
+      56
      ],
      "needs": [
       "mixer.link"
@@ -664,7 +665,8 @@
      "description": "A web page: its link, the page's own description and cover image, and its site.",
      "apis": [
       53,
-      55
+      55,
+      56
      ],
      "needs": [],
      "adds": [],
@@ -688,7 +690,8 @@
      "description": "AI is one question to an AI model (OpenAI's), asked as a workflow's step: a prompt and instructions, with the records the step gives it, answered in words or in the fields the step asks for, with the web's search when the step says so.",
      "apis": [
       53,
-      55
+      55,
+      56
      ],
      "needs": [],
      "adds": [],
@@ -711,7 +714,8 @@
      "author": "Mixer",
      "description": "Ask is a question to the user, asked as a workflow's step: the answers it offers, or their own words, its run waiting in Needs you until they answer.",
      "apis": [
-      55
+      55,
+      56
      ],
      "needs": [],
      "adds": [],
@@ -734,7 +738,8 @@
      "author": "Mixer",
      "description": "Notify is a notification to the user, sent as a workflow's step: a notice in Mixer and the system's, opening its run or a record the step gives it, a later one of the same workflow replacing it.",
      "apis": [
-      55
+      55,
+      56
      ],
      "needs": [],
      "adds": [],
